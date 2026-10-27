@@ -278,3 +278,38 @@
   width: 48px;
   height: 48px;
 }
+
+a,
+.bet-button,
+.card-link {
+  transition: opacity 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+.bet-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.bet-button:active,
+a:active {
+  opacity: 0.55;
+}
+
+a:focus-visible,
+.bet-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a,
+  .bet-button,
+  .card-link {
+    transition: none;
+  }
+}
+
