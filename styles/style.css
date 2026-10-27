@@ -44,3 +44,34 @@
   justify-self: end;
   width: 240px;
 }
+
+.cover {
+  position: relative;
+  isolation: isolate;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  color: #fff;
+  background: url("../images/cover.jpg") center / cover no-repeat;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.accent-span {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
