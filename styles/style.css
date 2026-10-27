@@ -241,3 +241,40 @@
 .about__text:last-child {
   margin-bottom: 0;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  min-height: 180px;
+  margin-top: 180px;
+  padding: 0 50px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.footer__address {
+  width: 250px;
+}
+
+.footer__menu-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 48px;
+  list-style-type: none;
+}
+
+.footer__social-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
